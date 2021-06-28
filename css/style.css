@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-section{
+    height: 100vh;
+    background-image: url("/image/header-bg.png");
+    background-size: cover;
+}
+.heding-header{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.heading-text{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 50px;
+}
+.text-section{
+    margin-top: 50px;
+}
+.box{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+
+    padding-left: 5%;
+}
+.img-section > img{
+width: 100%;
+}
