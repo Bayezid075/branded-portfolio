@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    
 }
 .top-section{
     height: 100vh;
@@ -21,11 +24,25 @@ font-size: 50px;
 }
 .box{
     float: left;
-    width: 40%;
-    margin-left: 5%;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 100px;
 
     padding-left: 5%;
 }
 .img-section > img{
 width: 100%;
+}
+p{
+    font-size: 20px;
+}
+.hire-me{
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-image: linear-gradient(45deg , lightsalmon,tomato);
+    border: none;
+}
+.hire-me >a{
+    text-decoration: none;
+    color: white;
 }
